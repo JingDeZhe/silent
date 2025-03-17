@@ -16,3 +16,9 @@ export interface ChatUser {
   signature?: string
   address?: string
 }
+
+export interface FriendRelation {
+  user1Id: string // 用户ID（较小值）
+  user2Id: string // 好友ID（较大值）
+  createdAt: Date // 建立时间
+}
