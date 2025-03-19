@@ -16,6 +16,7 @@ declare module 'vue' {
     EffectDisplay: typeof import('./src/components/EffectDisplay.vue')['default']
     GameScene: typeof import('./src/components/GameScene.vue')['default']
     ItemManage: typeof import('./src/components/ItemManage.vue')['default']
+    NAvatar: typeof import('naive-ui')['NAvatar']
     NDialogProvider: typeof import('naive-ui')['NDialogProvider']
     NMessageProvider: typeof import('naive-ui')['NMessageProvider']
     NNotificationProvider: typeof import('naive-ui')['NNotificationProvider']

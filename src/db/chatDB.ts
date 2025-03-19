@@ -1,5 +1,5 @@
 import Dexie, { type Table } from 'dexie'
-import type { FriendRelation } from './utils'
+import type { FriendRelation } from '../components/PhoneDisplay/ChatIf/utils'
 
 // 定义用户接口
 interface User {
